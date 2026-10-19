@@ -7,22 +7,22 @@
         <p/>
         <p/>
         <p/>
-        <p>无边无垠的黑暗中，[\s]已死的仙人产生了意识。</p>
+        <p>Trong muôn trùng bóng tối，[\s]ý thức của tiên nhân bắt đầu sinh ra.</p>
       </mono>
       <se id="01-01白光转场"/>
       <delay t="0.15"/>
       <transition in="1" stop="0.5" out="1.5" color="#ffffff" mode="fade"/>
-      <mono>起初，新生的意识正如世界的诞生一般，只是太虚中的一个光点。</mono>
+      <mono>Ban đầu, ý thức mới bắt đầu thành hình, cũng như điểm khởi đầu của sáng thế, chỉ là một đốm sáng nhỏ bé trong khoảng không bao la.</mono>
       <se id="01-01恢复意识" looptimes="-1"/>
       <bg img="BGIntel1" duration="3"/>
       <mono>
         <p/>
-        <p>『它』的权能还很有限，既无法接收感官传来的讯号，也无法下达神经所需的指令。</p>
+        <p>『Nó』 vẫn còn rất hạn chế, không thể nhận tín hiệu từ các giác quan, cũng chẳng thể dẫn truyền được yêu cầu của hệ thần kinh.</p>
       </mono>
       <bg img="BGIntel3" duration="5"/>
       <mono pageend="true">
         <p/>
-        <p>浑沌之中，微弱的意识遵循古老的本能，盲目却坚定地存在着，延伸着。</p>
+        <p>Giữa sự hỗn loạn, một ý thức yếu ớt, theo bản năng nguyên thuỷ đang tồn tại một cách mơ hồ nhưng kiên định, dần dần lan toả ra bên ngoài.</p>
       </mono>
       <delay t="0.2"/>
       <mono pageend="true">
@@ -31,8 +31,8 @@
         <p/>
         <p/>
         <p/>
-        <p>它还未发现自己的死亡。[\s]</p>
-        <p>她拒绝承认自己的死亡——</p>
+        <p>Nó vẫn chưa nhận ra mình đã tử vong.[\s]</p>
+        <p>Cô vẫn chưa chấp nhận rằng mình đã tử vong——</p>
       </mono>
       <se id="01-01恢复意识" looptimes="0"/>
       <transition in="2" stop="0" out="0" color="#ffffff" mode="dissolve"/>
@@ -44,20 +44,20 @@
         <p/>
         <p/>
         <p/>
-        <p>若以常识评断，仙人确实已经死了。</p>
+        <p>Theo lẽ thường mà nói, tiên nhân thực sự đã chết rồi.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片1"/>
       <delay t="0.5"/>
       <event action="show_ui"/>
-      <mono>她的右足齐踝而断。</mono>
+      <mono>Bàn chân phải đứt lìa ở ngay mắt cá.</mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片2"/>
       <delay t="0.5"/>
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>她的双手筋脉俱废。</p>
+        <p>Kinh mạch hai tay đều đã bị phế.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片3"/>
@@ -65,7 +65,7 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>她的内脏全数毁坏。</p>
+        <p>Lục phủ ngũ tạng bị huỷ hoại hoàn toàn.</p>
       </mono>
       <event action="hide_ui"/>
       <cg img="CG_第一折_赤鸢碎片4"/>
@@ -73,29 +73,29 @@
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>伤势最重的心口，破损则有十余处之多。</p>
+        <p>Lồng ngực nơi đầu tim là nặng nhất, hơn mười vết thương.</p>
       </mono>
       <cg duration="0.5"/>
       <mono pageend="true">
         <p/>
-        <p>但，最致命的伤口是在头部。</p>
+        <p>Nhưng, lại không chí mạng bằng vết thương trên đầu.</p>
       </mono>
       <transition in="0.6" stop="0" out="0" color="#8b0000" mode="dissolve"/>
       <transition mode="fade" in="0" stop="0.2" out="0.15" color="#8b0000"/>
       <se id="01-02大剑命中"/>
       <motion chara="-4" action="shake" duration="0.1" range="80" direction="horizontal"/>
       <bg img="BGBlood1"/>
-      <mono>那是一道剑伤。</mono>
+      <mono>Một vết chém bởi kiếm gây ra.</mono>
       <mono inline="true">
         <p/>
-        <p>剑刺中她的前额，</p>
+        <p>Thanh kiếm đâm xuyên trán, </p>
       </mono>
-      <mono inline="true">破坏了她的脑部，</mono>
-      <mono>接着穿颅而过。</mono>
-      <mono>若换作普通人，其中任一道伤势就足以令其殒命。</mono>
+      <mono inline="true">tổn hại đến não bộ, </mono>
+      <mono>xuyên cả qua hộp sọ.</mono>
+      <mono>Đối với phàm nhân, bất kỳ vết nào trong số những vết thương này cũng đủ để dồn vào cửa tử.</mono>
       <mono pageend="true">
         <p/>
-        <p>可“仙人”并不普通。</p>
+        <p>Nhưng “tiên nhân” nào phải người bình thường.</p>
       </mono>
       <transition mode="eye" in="2" stop="0" out="2" color="#000000"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
@@ -103,22 +103,22 @@
       <delay t="2.2"/>
       <bg/>
       <event action="show_ui"/>
-      <mono pageend="true">仙人不死，亦不灭。</mono>
+      <mono pageend="true">Bất tử tiên nhân, cũng chẳng phải là bất diệt.</mono>
       <event action="show_ui"/>
       <mono>
-        <p>身经千年而不死。[\s]</p>
-        <p>魂历万年而不灭。[\s]</p>
+        <p>Nghìn năm cơ thể vẫn bất lão.[\s]</p>
+        <p>Vạn năm linh hồn vẫn trường tồn.[\s]</p>
         <p/>
-        <p>彻底颠覆衰亡的法则，</p>
-        <p>神州独一无二的仙人。</p>
+        <p>Hoàn toàn đảo lộn sinh lão bệnh tử, </p>
+        <p>Tiên nhân độc nhất vô nhị của vùng đất Thần Châu.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>如今静静躺在石室中的这具残躯，当初正是这样的存在。</p>
+        <p>Thân thể bị tàn phá nằm lặng yên trong căn phòng đá ngay lúc này, đã từng hiển hách như vậy đấy.</p>
       </mono>
-      <mono>于是， </mono>
+      <mono>Thế là,</mono>
       <event action="show_ui"/>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <se id="01-04痊愈loop" looptimes="-1"/>
@@ -126,12 +126,12 @@
       <event action="show_ui"/>
       <mono pageend="true">
         <p/>
-        <p>从一个个神经元开始，</p>
-        <p>仙人的大脑和肉体开始了漫长的修复与重组。</p>
+        <p>Từ từng tế bào thần kinh đơn lẻ, </p>
+        <p>não bộ và cơ thể của tiên nhân bắt đầu một quá trình phục hồi dài từng chút một.</p>
       </mono>
       <event action="show_ui"/>
       <delay t="7"/>
-      <mono pageend="true">汲取周遭的每一分真气，</mono>
+      <mono pageend="true">Hấp thụ từng chút chân khí từ bên ngoài, </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡2" duration="2"/>
       <delay t="2"/>
@@ -139,7 +139,7 @@
       <se id="01-05痊愈"/>
       <mono>
         <p/>
-        <p>织补剥裂的皮肤，</p>
+        <p>chữa lành những vết nứt trên da thịt, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡3" duration="2"/>
@@ -147,7 +147,7 @@
       <se id="01-06痊愈"/>
       <mono>
         <p/>
-        <p>接续断裂的骨骼，</p>
+        <p>liền lại xương cốt đã gãy, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡4" duration="2"/>
@@ -155,7 +155,7 @@
       <se id="01-07痊愈"/>
       <mono>
         <p/>
-        <p>连延破碎的肌肉，</p>
+        <p>nối đoạn gân cơ đứt lìa, </p>
       </mono>
       <event action="hide_ui" duration="2"/>
       <cg img="CG_第一折_赤鸢沉睡5" duration="2"/>
@@ -164,7 +164,7 @@
       <se id="01-05痊愈"/>
       <mono pageend="true">
         <p/>
-        <p>修复损毁的器官……</p>
+        <p>phục hồi cơ quan bị huỷ hoại……</p>
       </mono>
       <delay t="2"/>
       <transition in="3" stop="0.5" out="0" color="#ffffff" mode="halo"/>
@@ -178,43 +178,43 @@
         <p/>
         <p/>
         <p/>
-        <p>             逐渐地，仙人的『意识』获得了知觉。</p>
+        <p>             Dần dần, 『ý thức』 của tiên nhân đã chạm đến nhận thức.</p>
       </mono>
       <transition mode="move" in="1" stop="0.5" out="0.5" color="#000000" direction="left" custom="thick"/>
       <letterbox action="show_letterbox" height="400" duration="0"/>
       <se id="01-03野外小屋loop" looptimes="-1"/>
       <bg img="BGSky00"/>
-      <mono>她看见光影交织而成的线从这石室的小窗中自东向西，又自西返东。</mono>
+      <mono>Cô nhìn thấy những vệt sáng và tối đan xen nhau từ ô cửa sổ nhỏ của căn phòng đá, chiếu từ đông sang tây rồi quay ngược trở về.</mono>
       <letterbox action="show_letterbox" height="300" duration="1"/>
       <bg img="BGSky01"/>
       <mono>
         <p/>
-        <p>她嗅到蚁虫尸体的腐臭夹杂着枯萎草木的衰香，在石室中絮绕不休。</p>
+        <p>Cô ngửi thấy mùi hôi thối của kiến ​​và côn trùng đang phân hủy hoà lẫn với mùi mục rữa của cỏ cây khô héo, lẩn quẩn mãi trong căn phòng đá.</p>
       </mono>
       <letterbox action="show_letterbox" height="200" duration="1"/>
       <bg img="BGSky02"/>
       <mono>
         <p/>
-        <p>她听见夏去秋至时落叶触地的声响，也察觉枝桠拥抱雪花的轻轻摇摆。</p>
+        <p>Cô nghe thấy tiếng lá rơi bên thềm khi hạ sang thu, và cũng nhìn thấy cành cây khẽ đong đưa khi hứng tuyết trời.</p>
       </mono>
       <letterbox action="show_letterbox" duration="1" height="100"/>
       <bg img="BGSky04"/>
       <mono pageend="true">
         <p/>
-        <p>她还感到了疼、痛、酸、麻、胀、痒……在身体各处喑哑不停。</p>
+        <p>Cô cũng cảm nhận được đủ mọi cơn đau nhức, ê ẩm, tê bì, sưng tấy, ngứa ngáy... khắp toàn thân.</p>
         <p/>
-        <p>千劫加身，百苦在体，这份折磨似乎永无止境。</p>
+        <p>Ngàn đau vạn khổ quấn thân, sự tra tấn này dường như không hề có hồi kết.</p>
       </mono>
       <se id="01-03野外小屋loop" looptimes="0"/>
       <letterbox action="hide_letterbox" duration="0"/>
       <bg img="PureBlack" duration="3"/>
       <mono>
         <p/>
-        <p>……无止境的修复，无止境的痛楚。</p>
+        <p>……sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>仙人一声不吭。</p>
+        <p>Tiên nhân không hé nửa lời.</p>
       </mono>
       <se id="01-08扰乱心神杂音loop" looptimes="-1"/>
       <bg img="BGNeuron03" duration="3"/>
@@ -223,29 +223,29 @@
         <p/>
         <p/>
         <p/>
-        <p>「       我               谁          ？      」</p>
+        <p>「       Ta               là            ai             ？      」</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>头脑仍是一片混沌，记得一些事情，忘记的却更多。</p>
+        <p>Đầu óc rối bời, nhớ được đôi ba chuyện, quên lại càng nhiều hơn.</p>
       </mono>
       <mono chara="000" pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>「       此               何处          ？      」</p>
+        <p>「       Đây               là đâu          ？      」</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>记忆只剩只字片语，拼凑不出她想要的答案。</p>
+        <p>Những ký ức vỡ vụn từng mảnh, không thể nào ghép lại được thành câu trả lời mà cô đang kiếm tìm.</p>
       </mono>
       <mono chara="000" pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>「       ……              为            ？      」</p>
+        <p>「       ……              Tại            ？      」</p>
       </mono>
       <bgm id="千年之羽" looptimes="0"/>
       <se id="01-08扰乱心神杂音loop" looptimes="0"/>
@@ -256,27 +256,27 @@
         <p/>
         <p/>
         <p/>
-        <p>            思及此，磨灭已久的情感忽在胸中激荡。</p>
+        <p>            Khi nhớ ra thì, những cảm xúc đã ngủ yên từ lâu bỗng chực trào trở lại.</p>
       </mono>
       <se id="01-09心跳loop" looptimes="-1"/>
       <event action="hide_ui" duration="0.5"/>
       <motion action="shake" chara="-4" range="30" direction="default" duration="0.1" delay="0.1"/>
       <mono>
         <p/>
-        <p>七……</p>
+        <p>Bảy……</p>
       </mono>
       <delay t="0.2"/>
       <event action="show_ui"/>
       <mono>
         <p/>
-        <p>七个与她相处最近的人。</p>
+        <p>Bảy người thân cận nhất của cô.</p>
       </mono>
-      <mono>七柄与她相伴最久的剑。</mono>
+      <mono>Bảy thanh kiếm đã đồng hành cùng cô lâu nhất.</mono>
       <motion chara="-4" action="shake" duration="0.1" range="30" direction="default" looptimes="1"/>
       <mono pageend="true" inline="true">
         <p/>
-        <p>七个人合谋一处，诱她入彀。[\s]</p>
-        <p>七柄剑布下罗网，将她杀死。</p>
+        <p>Bảy người cùng nhau lập mưu, dụ cô vào bẫy.[\s]</p>
+        <p>Bảy thanh kiếm giăng một mẻ lưới, và sát hại cô.</p>
       </mono>
       <se id="01-09心跳loop" looptimes="0"/>
       <transition mode="dissolve" in="1" stop="0.5" out="1" color="#000000"/>
@@ -287,30 +287,30 @@
         <p/>
         <p/>
         <p/>
-        <p>「       ……              为      什么       ？      」</p>
+        <p>「       ……              Tại      sao       ？      」</p>
       </mono>
       <transition mode="fade" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="BGNeuron01"/>
       <cg img="CG_第一折_赤鸢沉睡end"/>
       <mono pageend="true" inline="true">
-        <p>汹涌的情感翻腾不休，[\s]</p>
-        <p>有愤恨，[\s]</p>
-        <p>有疑惑，[\s]</p>
-        <p>有忿怨，[\s]</p>
-        <p>有恼怒，[\s]</p>
-        <p>也有悲伤。</p>
+        <p>Cảm xúc bắt đầu trào dâng lên, [\s]</p>
+        <p>có sự căm phẫn, [\s]</p>
+        <p>có sự nghi hoặc, [\s]</p>
+        <p>có sự oán hận, [\s]</p>
+        <p>có sự tức giận, [\s]</p>
+        <p>và cả sự bi thương.</p>
       </mono>
       <mono chara="000">
         <p/>
         <p/>
-        <p>                      「……为什么？」</p>
+        <p>                      「……Cớ làm sao？」</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
         <p/>
-        <p>                没有答案，只有追寻答案的渴望。</p>
+        <p>                Chẳng có lời hồi đáp, chỉ có khát vọng tìm ra sự thật.</p>
       </mono>
       <event action="hide_ui" duration="3"/>
       <cg img="CG_第一折_赤鸢苏醒end" duration="3"/>
@@ -320,52 +320,52 @@
         <p/>
         <p/>
         <p/>
-        <p>……仙人决定等待。</p>
+        <p>……Tiên nhân quyết định chờ đợi.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>她曾守望长似无尽的岁月，时间于她已不再重要。</p>
+        <p>Đã từng đi qua năm dài tháng rộng, thời gian giờ đây chẳng còn quan trọng nữa.</p>
       </mono>
       <mono pageend="true" inline="true">
         <p/>
         <p/>
         <p/>
-        <p>她要继续等待下去，等到躯体痊愈的一日。[\s]</p>
+        <p>Cô sẽ tiếp tục đợi cho đến khi cơ thể hoàn toàn bình phục.[\s]</p>
         <p/>
-        <p>她要找到那七个人，问出杀死自己的缘由。</p>
+        <p>Cô muốn đi tìm bảy người đó và biết lý do tại sao họ lại giết cô.</p>
       </mono>
       <mono>
         <p/>
         <p/>
         <p/>
-        <p>强烈的冲动烙印在飘渺的意识中，</p>
+        <p>Một động lực mạnh mẽ in sâu vào tiềm thức mơ hồ, </p>
         <p/>
-        <p>催促着她，敲打着她，改变着她，</p>
+        <p>nó thúc giục, lôi kéo và cố gắng phục hồi cho cô, </p>
         <p/>
-        <p>让等待成为习惯，煎熬变为自然。</p>
+        <p>biến sự chờ đợi trở thành thói quen, và để việc chịu đựng trở thành bình lặng.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>然后……</p>
+        <p>Và rồi……</p>
       </mono>
       <transition mode="clock" in="2" stop="0.5" out="0" color="#000000"/>
       <transition mode="fade" in="0" stop="0" out="2" color="#000000"/>
       <cg/>
       <mono>
-        <p>疼痛</p>
-        <p>       疼痛</p>
-        <p>              疼痛</p>
-        <p>                     疼痛</p>
+        <p>Đau đớn</p>
+        <p>       Đau đớn</p>
+        <p>              Đau đớn</p>
+        <p>                     Đau đớn</p>
       </mono>
       <mono>
         <p/>
-        <p>无止境的修复，无止境的痛楚。</p>
+        <p>Sự hồi phục không dừng lại, cũng là cơn đau đớn vô biên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>仙人一声不吭。</p>
+        <p>Tiên nhân chẳng hé nửa lời.</p>
       </mono>
       <transition in="1" stop="0.1" out="1" color="#000000" mode="dissolve"/>
       <bg img="PureBlack"/>
@@ -373,9 +373,9 @@
         <p/>
         <p/>
         <p/>
-        <p>她已经忍耐了很久，</p>
+        <p>Cô đã nhẫn nại chịu đựng rất lâu, </p>
       </mono>
-      <mono pageend="true">她还可以忍耐很久。</mono>
+      <mono pageend="true">Cũng có thể tiếp tục như vậy thêm rất lâu nữa.</mono>
       <bgm looptimes="0"/>
       <event action="hide_ui"/>
       <transition in="1" stop="0.5" out="1" color="#000000" mode="fade"/>
@@ -393,51 +393,51 @@
       <delay t="2"/>
       <mono pageend="true">
         <p/>
-        <p>这只是沙漠中的一座小驿站。</p>
+        <p>Đây chỉ là một trạm dừng chân nhỏ giữa sa mạc.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>距今一千四百年前，流浪的图伊克人在此发现了绿洲。</p>
+        <p>Một ngàn bốn trăm năm trước, người Tuik du mục đã phát hiện ra một ốc đảo ở đây.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>他们感谢神明的护佑，尽情啜饮清水，然而并未停留。</p>
+        <p>Họ cảm tạ sự che chở của các vị thần và uống nước thỏa thuê, nhưng cũng không nán lại lâu.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>又三百年过去，一支颜国商队路经此地。</p>
+        <p>Ba trăm năm sau, lại một đoàn lữ hành từ nước Yên đi ngang qua nơi này.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>商队满载珠宝玉器与丝绸织锦，还有一位外交使节随行。</p>
-        <p>此人的价值超过商队所有货物之和，因他肩负着出使西域，交流联盟的重任。</p>
+        <p>Đoàn lữ hành mang theo đầy những châu ngọc quý giá, gấm vóc lụa là, và có cả một phái viên ngoại giao đi cùng.</p>
+        <p>Người này còn có giá trị hơn tất thảy báu vật kia, bởi lẽ ngài được giao nhiệm vụ quan trọng là đi về phía Tây thiết lập liên minh.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
-        <p>商人们在此歇脚，第二天启程离去。</p>
-        <p>他们从未走出漠北，没有人知晓其下落。</p>
+        <p>Các thương nhân dừng chân nghỉ ở đây trước khi khởi hành vào ngày hôm sau.</p>
+        <p>Rồi họ mất hút ở sa mạc phía Bắc, tung tích bất minh.</p>
       </mono>
       <mono inline="true">
         <p/>
-        <p>七百四十年前，班俞族的游牧民在这片绿洲旁扎下营地。</p>
+        <p>Bảy trăm bốn mươi năm trước, người Banyu du mục đã từng dựng trại bên cạnh ốc đảo này.</p>
         <p/>
-        <p>族长对她的人民说：因了这片水源，班俞人将永不再漂泊。</p>
+        <p>Vị tù trưởng nói với người dân của mình: Nhờ ơn nguồn nước này, người Banyu sẽ không cần phải tha vong nữa.</p>
       </mono>
       <mono pageend="true">
         <p/>
         <p/>
         <p/>
-        <p>一百年后，匈人从北方来。他们扫荡了班俞的村落，杀死所有的老人与壮年男子，带走女人和年幼的孩童，前往遥远的西域。</p>
+        <p>Một trăm năm sau, người Hung từ phương Bắc đổ xuống. Chúng càn quét các làng mạc nơi đây, giết chết đàn ông trưởng thành khỏe mạnh, bắt phụ nữ và trẻ nhỏ đưa đến vùng Tây Vực xa xôi.</p>
         <p/>
-        <p>……绿洲被留在匈人的身后，再次被世界遗忘。</p>
+        <p>……Ốc đảo bị người Hung vứt bỏ và lại một lần nữa bị thế giới lãng quên.</p>
       </mono>
       <mono pageend="true">
         <p/>
-        <p>岁月悠悠，白云苍狗。[\s]</p>
+        <p>Thời gian vùn vụt trôi, thế sự cũng đổi dời.[\s]</p>
         <p/>
-        <p>文明兴起，继而灭亡；人们来来去去，终于湮没在久远的历史长河之中。</p>
+        <p>Lớp lớp nền văn minh trỗi dậy rồi lại suy tàn; con người cứ đến rồi đi, cuối cùng đều hòa mình vào dòng sông dài của lịch sử.</p>
       </mono>
       <bgm looptimes="0"/>
       <transition mode="fade" in="2" stop="1" out="2" color="#000000"/>
@@ -447,7 +447,7 @@
       <bg img="氛围_第一折_烈阳" duration="3" scale="1.2" origin="80%,20%"/>
       <delay t="3.2"/>
       <bgm id="神秘东方"/>
-      <text>举头上望，一轮烈日高悬长空，光芒遍照大地。</text>
+      <text>Ngước lên, thấy thái dương rực rỡ treo trên vòm trời cao, những tia nắng của nó chiếu sáng khắp đại địa.</text>
       <se id="01-12沙漠环境（无风沙）" looptimes="-1"/>
       <event action="hide_ui" duration="9"/>
       <bg img="BGDesert01" duration="3"/>
@@ -458,43 +458,43 @@
       <delay t="3"/>
       <event action="show_ui"/>
       <se id="01-12沙漠环境（无风沙）" looptimes="0"/>
-      <text>环顾四周，只见蒸腾的热气中，层层沙丘好似海浪起伏不休。</text>
+      <text>Trông ra, thấy tầng tầng cồn cát nhấp nhô tựa sóng biển giữa cái nóng như thiêu như đốt.</text>
       <event action="hide_ui" duration="2"/>
       <motion chara="095" action="show" pos="right" img="砂匪2-中-普通" duration="2"/>
       <delay t="2"/>
       <event action="show_ui"/>
       <se id="01-14男气声哎"/>
-      <dialog chara="095">「……唉。」</dialog>
+      <dialog chara="095">「……Hầy.」</dialog>
       <text>
-        <p>绿洲如今的住客，此际正在古墙的阴影里不住叹气。[\s]</p>
-        <p>这沉闷的烈阳沙海，他已看了足足三月光景。</p>
+        <p>Những cư dân hiện tại của ốc đảo đang thở dài thườn thượt trong bóng tối của những bức tường cổ.[\s]</p>
+        <p>Mặt trời vẫn cứ chói chang đốt cháy biển cát, sự ngột ngạt này hắn ta đã phải chịu ròng rã ba tháng liền rồi.</p>
       </text>
       <se id="01-13男气声哎"/>
-      <dialog chara="095">「唉…………」</dialog>
+      <dialog chara="095">「Ha…………」</dialog>
       <text>
-        <p>男人又叹了一息。</p>
-        <p>大漠的荒凉与炎热叫他烦闷得紧。</p>
+        <p>Người đàn ông lại thở dài lần nữa.</p>
+        <p>Sự hoang vu và cái nóng rực lửa của sa mạc khiến hắn ta vô cùng khó chịu.</p>
       </text>
       <text>
-        <p>放眼望去，视线中的所有都一成不变：</p>
-        <p>太阳、天空、黄沙……尽都停滞着，一动不动。</p>
-        <p>甚至空气都是凝固的；他的身旁一丝风也没有。</p>
+        <p>Nhìn xung quanh, mọi thứ vẫn chẳng có gì thay đổi: </p>
+        <p>Vầng dương, bầu trời, bãi cát…… mọi thứ đều như đóng băng lại tại chỗ, không chút biến động.</p>
+        <p>Ngay cả không khí dường như cũng đóng băng; không có nổi một làn gió nào thoảng qua.</p>
       </text>
       <motion chara="095" action="img_trans" img="砂匪2-中-惊慌"/>
-      <dialog chara="095">「老荣……你那边还好不？」</dialog>
+      <dialog chara="095">「Lão Vinh…… bên đó sao rồi?」</dialog>
       <motion chara="095" action="hide"/>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="right" custom="default"/>
       <bg img="BGDesert02"/>
       <motion chara="094" action="show" pos="left" img="砂匪1-远-普通"/>
       <dialog chara="094">「…………」</dialog>
-      <text>远处，男人的同伴没有作答，只是冲他摇摇头，意思是没有状况。</text>
+      <text>Phía xa, người bạn đồng hành không trả lời, mà chỉ lắc đầu, ra hiệu rằng không có vấn đề.</text>
       <text>
-        <p>对方心里有数，知道男人只是借个话头，消解无聊。</p>
-        <p>可在黄沙的蒸炉里，说话是一种奢侈品。</p>
+        <p>Người kia biết; họ đều hiểu chỉ là bắt chuyện bâng quơ cho đỡ nhàm chán.</p>
+        <p>Trong cái lò nung nóng bỏng của cát vàng, nói chuyện cũng là một điều xa xỉ.</p>
       </text>
       <text>
-        <p>开口意味着精神的涣散，水分的流失。</p>
-        <p>『金沙帮』的值守人不愿费这份力气。</p>
+        <p>Việc nói chuyện đồng nghĩa với tâm trí đang mất tập trung và kéo theo bị mất nước.</p>
+        <p>Các vệ sĩ của 『Kim Sa Bang』 đều không muốn mất sức.</p>
       </text>
       <motion chara="094" action="hide"/>
       <transition mode="move" in="0.5" stop="0.5" out="0.5" color="#000000" direction="left" custom="default"/>
@@ -504,96 +504,96 @@
         <p>ㅤ</p>
         <p>注：</p>
         <p>ㅤ</p>
-        <p>『※』处原是粗鄙字眼，为免造成不良影响，在此以符号代替。读者可自行想象原文，或不妨略去。</p>
+        <p>Các ký tự được đánh dấu bằng 『※』 ban đầu chứa ngôn từ tục tĩu; ẩn đi để tránh tác động tiêu cực. Người đọc có thể tự tưởng tượng hoặc bỏ qua.</p>
         <p>ㅤ</p>
-        <p>本故事部分登场角色因出身、环境、个人修养等因素，时而口出秽语。文内为尊重角色性格仅作遮盖处理，望海涵。</p>
+        <p>Vài nhân vật trong câu chuyện đôi lúc có ngôn từ tục tĩu trong một số hoàn cảnh nhất định. Để tôn trọng thiết lập của nhân vật, các từ đã bị ẩn và thay bằng kí hiệu; mong bạn thông cảm.</p>
       </remark>
-      <dialog chara="095">「行，好嘞……※※，我晓得了。」</dialog>
-      <text>男人碰了个闭门羹，悻悻然地舔舔嘴唇。</text>
+      <dialog chara="095">「Được, được lắm……※※, hiểu rồi.」</dialog>
+      <text>Hắn ta quay mặt đi và liếm môi đầy chán nản.</text>
       <text>
-        <p>他还是个新人，加入『金沙帮』方才数月，仍未掌握全部的规矩。</p>
-        <p>如若不然，他就会晓得水的珍贵，懂得少言寡语，靠着旧墙一动不动，在影子里站到帮主凯旋归来为止。</p>
+        <p>Hắn ta vẫn chỉ là tân bình, mới gia nhập 『Kim Sa Bang』 vài tháng trước và chưa hiểu hết quy luật.</p>
+        <p>Nếu không, hắn ta đã biết tầm quan trọng của nước, học cách để im lặng và biết đứng dựa vào bức tường cũ, ẩn mình trong bóng tối cho đến khi thủ lĩnh mang vinh quang trở về.</p>
       </text>
       <motion chara="095" action="img_trans" img="砂匪2-中-微笑"/>
       <remark>
         <p>ㅤ</p>
         <p>注：</p>
         <p>ㅤ</p>
-        <p>『※』处原是粗鄙字眼，为免造成不良影响，在此以符号代替。读者可自行想象原文，或不妨略去。</p>
+        <p>Các ký tự được đánh dấu bằng 『※』 ban đầu chứa ngôn từ tục tĩu; ẩn đi để tránh tác động tiêu cực. Người đọc có thể tự tưởng tượng hoặc bỏ qua.</p>
         <p>ㅤ</p>
-        <p>本故事部分登场角色因出身、环境、个人修养等因素，时而口出秽语。文内为尊重角色性格仅作遮盖处理，望海涵。</p>
+        <p>Vài nhân vật trong câu chuyện đôi lúc có ngôn từ tục tĩu trong một số hoàn cảnh nhất định. Để tôn trọng thiết lập của nhân vật, các từ đã bị ẩn và thay bằng kí hiệu; mong bạn thông cảm.</p>
       </remark>
-      <dialog chara="095">「※，那可是票大买卖啊。」</dialog>
+      <dialog chara="095">「※, đấy không phải một thương vụ lớn sao.」</dialog>
       <text>
-        <p>男人骂骂咧咧，权作发泄。</p>
-        <p>声音不大，同伴即使听见了，也不知他在咒什么。</p>
+        <p>Gã đàn ông rủa xả thậm tệ để trút hết sự bực bội của mình.</p>
+        <p>Âm lượng không quá lớn, ngay cả khi những người đồng hành nghe thấy, họ cũng chẳng biết hắn ta đang chửi rủa cái gì.</p>
       </text>
       <motion chara="095" action="img_trans" img="砂匪2-中-普通"/>
       <text>
-        <p>……可他其实心里清楚，帮主并没因为是新人而小瞧他；</p>
-        <p>守营的活向来轮值，只是不巧偏是今日该他负责。</p>
+        <p>……Nhưng trong thâm tâm, hắn ta biết thủ lĩnh băng đảng không hề coi thường mình chỉ vì là người mới;</p>
+        <p>Việc canh gác trại tuần tự luân phiên, xui rủi hôm nay lại đến lượt hắn.</p>
       </text>
-      <text>虽说在金沙帮的规矩里，守家和打仗同等功劳，给他的那份奖赏绝不会少。</text>
+      <text>Mặc cho theo luật của Kim Sa Bang, bảo vệ trại và đi chiến đấu có công trạng ngang nhau, phần thưởng của hắn chắc hẳn sẽ không hề ít hơn.</text>
       <text>
-        <p>但——他可是亡命之徒。双手沾满血腥，脚踩尸骸无数。</p>
-        <p>掠夺、抢劫、欺凌、杀戮才是他该干的事儿。</p>
-        <p>刀光剑影血花四溅的刺激才是他该得的奖赏。</p>
-      </text>
-      <text>
-        <p>男人深信自己的价值：ㅤ[em bold color=#ff0000]战斗[/em]ㅤ与ㅤ[em bold color=#ff0000]厮杀[/em]ㅤ。[\s]</p>
-        <p>若『恶』有分真假高低，此人即是货真价实的穷凶极恶之徒。[\s]</p>
-        <p>他非但不以暴力为耻，反而将之视作自己本领的证明。</p>
+        <p>Nhưng—— hắn vốn là một tên tội phạm liều lĩnh. Tay hắn nhuốm máu, chân giẫm lên vô số thi thể.</p>
+        <p>Cướp bóc, trộm cắp, ức hiếp và giết người mới là những việc hắn nên làm.</p>
+        <p>Sự kịch tính của ​​những thanh kiếm lóe sáng và cảnh máu văng tung tóe mới chính là phần thưởng mà hắn khát khao.</p>
       </text>
       <text>
-        <p>因此，被排除出这笔策划许久的『大买卖』，</p>
-        <p>令男人的心中诞生了近乎屈辱感的愤恨。[\s]</p>
-        <p>正是这份愤怒使他现在焦躁不安，口干舌燥。</p>
+        <p>Hắn rất tin tưởng vào giá trị của bản thân:ㅤ[em bold color=#ff0000]Chiến đấu [/em]ㅤvàㅤ[em bold color=#ff0000]chém giết[/em]ㅤ。[\s]</p>
+        <p>Nếu 『cái ác』 có thể phân loại thật giả, cao thượng hay thấp hèn, thì hắn ta quả thực là một kẻ độc ác và tàn nhẫn.[\s]</p>
+        <p>Hắn ta không hề xấu hổ về việc dùng bạo lực; ngược lại, còn coi đó là minh chứng của năng lực.</p>
+      </text>
+      <text>
+        <p>Bởi vậy, nên mới bị loại khỏi 『thương vụ lớn』 đã lên kế hoạch từ lâu, </p>
+        <p>Dẫn đến cảm giác nhục nhã và oán giận nảy nở trong lòng hắn.[\s]</p>
+        <p>Chính sự tức giận đó đã khiến hắn đứng ngồi không yên.</p>
       </text>
       <motion chara="095" action="hide"/>
       <transition mode="eye" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="PureBlack"/>
       <se id="01-15喝水"/>
-      <dialog chara="095">「咕嘟——」</dialog>
-      <text>心情糟透了的男人举起水袋，大口啜饮。</text>
-      <dialog chara="095">「咦——」</dialog>
+      <dialog chara="095">「Ực ực——」</dialog>
+      <text>Tâm tình tồi tệ, hắn cầm lấy túi nước và uống một ngụm lớn.</text>
+      <dialog chara="095">「Hừ——」</dialog>
       <bg img="氛围-1-素裳过曝-1" duration="5"/>
       <event action="hide_ui" duration="4"/>
       <delay t="4"/>
       <event action="show_ui"/>
-      <text>男人愣住了。</text>
+      <text>Hắn ta sững sờ.</text>
       <event action="hide_ui" duration="3"/>
       <bg img="氛围-1-素裳过曝-2" duration="3"/>
       <delay t="3"/>
       <event action="show_ui"/>
-      <text>在视线的前方，一个女孩正在向他走来。</text>
+      <text>Ở ngay phía trước, có một cô gái đang đi về phía hắn ta.</text>
       <text>
-        <p>男子没有花眼，所见的也绝非漠北常见的“蜃气”。[\s]</p>
-        <p>那女孩……从沙漠的远处缓缓走来的女孩，定是真人，确凿无疑。</p>
+        <p>Không hề nhìn nhầm, cũng chắc chắn không phải là thứ ảo ảnh thường thấy ở sa mạc phía Bắc.[\s]</p>
+        <p>Cô gái đó…… từ đắng xa của sa mạc chậm rãi tiến lại gần, chắc chắn là người thật, không còn nghi ngờ gì nữa.</p>
       </text>
-      <dialog chara="095">「老、老荣——！」</dialog>
+      <dialog chara="095">「Lão, lão Vinh——！」</dialog>
       <text>
-        <p>呼声脱口而出，很快消散在空气中。</p>
-        <p>不觉间，男人已犯下金沙帮的大忌。</p>
-      </text>
-      <text>
-        <p>惊慌失措，此其一、</p>
-        <p>轻举妄动，此其二、</p>
-        <p>若换作金沙帮的老人，绝不会如此大惊小怪。</p>
+        <p>Tiếng hét vừa rời khỏi môi hắn đã nhanh chóng tan vào không khí.</p>
+        <p>Mà không hề hay biết, mình đã phạm một trọng tội đối với Kim Sa Bang.</p>
       </text>
       <text>
-        <p>但，疑惑已悄然盘桓男人的心头。</p>
-        <p>在漠北横行无忌的金沙帮，还从未遇到主动登门的女客。</p>
+        <p>Hoảng loạn, là tội thứ nhất, </p>
+        <p>Hấp tấp bất cẩn, là tội thứ hai, </p>
+        <p>Nếu là một thành viên kỳ cựu của Kim Sa Bang, sẽ không bao giờ la lối ầm ĩ như vậy.</p>
       </text>
-      <text>「这女娃是什么来头？」</text>
-      <text>「她疯了？这儿可是金沙帮的地盘！」</text>
-      <text>「谁敢找咱们的麻烦？谁敢惹金沙帮的乱子？」</text>
-      <text>……疑惑纷至沓来，疾电般闪过脑海，最终汇成一道问题。</text>
+      <text>
+        <p>Tuy nhiên, những nghi ngờ đã bắt đầu nảy sinh trong tâm trí gã đàn ông.</p>
+        <p>Kim Sa Bang, vốn tự do hoành hành ở sa mạc phía bắc, chưa từng có một vị khách nữ nào chủ động tìm đến cửa.</p>
+      </text>
+      <text>「Ả ta là ai?」</text>
+      <text>「Bị điên rồi sao? Đây là địa bàn của Kim Sa Bang!」</text>
+      <text>「Kẻ nào dám gây rối? Kẻ nào dám đụng đến Kim Sa Bang?」</text>
+      <text>……Hàng loạt câu hỏi ập đến, vụt qua tâm trí như chớp giật, và cuối cùng hội tụ thành một câu hỏi duy nhất.</text>
       <event action="hide_ui" duration="3"/>
       <se id="01-17女孩沙漠行走loop" looptimes="-1"/>
       <bg img="氛围-1-素裳过曝-3" duration="3"/>
       <delay t="3"/>
       <event action="show_ui"/>
-      <dialog chara="095">「这女娃是……什么人？」</dialog>
+      <dialog chara="095">「Người phụ nữ…… rốt cuộc là ai？」</dialog>
       <bgm looptimes="0"/>
       <transition mode="fade" in="3" stop="2" out="0" color="#000000"/>
       <event action="goto" to="02"/>
@@ -606,17 +606,17 @@
       <delay t="2"/>
       <event action="show_ui"/>
       <bgm id="佛心禅悟"/>
-      <text>男人料不到的是：来者年纪虽小，名头却绝不简单。</text>
+      <text>Điều mà hắn không ngờ tới là, dù người đó còn rất trẻ, nhưng lai lịch lại không hề đơn giản.</text>
       <se id="01-17女孩沙漠行走loop" looptimes="0"/>
       <event action="hide_ui" duration="4"/>
       <se id="01-16镜头拉近转场"/>
       <bg img="氛围-1-素裳过曝-3" duration="4" scale="2" origin="80%,65%"/>
       <delay t="4"/>
       <event action="show_ui"/>
-      <text inline="true">女孩名唤李素裳。</text>
+      <text inline="true">Cô ấy tên là Lý Tố Thường.</text>
       <text>
         <p/>
-        <p>她是川中『忆剑山庄』少庄主，赤鸢真人座下第七徒『染香剑』秦素衣的独生女儿。</p>
+        <p>Thiếu trang chủ của 『Ức Kiếm Sơn Trang』, cũng là con gái duy nhất của 『Nhiễm Hương Kiếm』 Tần Tố Y  - đồ đệ thứ bảy của Xích Diên Chân Nhân.</p>
       </text>
       <event action="hide_ui" duration="3"/>
       <bg img="氛围-1-素裳渐近-1" duration="5" scale="2" origin="80%,65%"/>
@@ -624,80 +624,80 @@
       <delay t="3"/>
       <event action="show_ui"/>
       <text>
-        <p>赤鸢真人、染香剑、忆剑山庄。[\s]</p>
-        <p>在神州武林，这几个名字随便取出一个，都足以令群豪敬服。</p>
+        <p>Xích Diên Chân Nhân, Nhiễm Hương Kiếm, Ức Kiếm Sơn Trang.[\s]</p>
+        <p>Trong giới võ lâm Thần Châu, chỉ cần một trong những cái tên này thôi cũng đủ để được kính trọng bởi tất cả các anh hào.</p>
       </text>
-      <text>但在漫天黄沙的大漠，它们只不过是些毫无意义的汉字罢了。</text>
+      <text>Nhưng giữa sa mạc rộng lớn cùng bãi cát vàng trải dài vô tận, chúng chẳng khác gì những hán tự vô nghĩa.</text>
       <text>
-        <p>大漠不提声望，不讲虚名；它是一片弱肉强食，你死我活的荒原。[\s]</p>
-        <p>强者生存，弱者则沦为风沙掩埋的枯骨。</p>
+        <p>Sa mạc không cần tên tuổi cũng không trọng hư danh, chỉ là vùng đất săn mồi mạnh được yếu thua, phải chiến đấu cho đến chết.[\s]</p>
+        <p>Kẻ mạnh sống sót, kẻ yếu sẽ bị gió và cát vùi đi, chỉ còn bộ xương khô héo.</p>
       </text>
       <motion chara="002" action="img_trans" img="素裳-绝望张嘴-持剑-远景"/>
       <text>
-        <p>或许正因如此——李素裳想。[\s]</p>
-        <p>正因如此，母亲才不顾父亲的反对，将龆龀之年的自己送来大漠。</p>
+        <p>Có lẽ chính bởi vậy—— Lý Tố Thường nghĩ.[\s]</p>
+        <p>Có lẽ chính bởi vậy, bất chấp sự phản đối của phụ thân, mẫu thân đã gửi cô, khi còn là một đứa trẻ mới biết đi, đến nơi sa mạc.</p>
       </text>
       <motion chara="002" action="hide" duration="1"/>
       <transition mode="shutter" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="忆剑山庄"/>
-      <text>李素裳一岁时，话还说不利索，娘亲就教她习武。</text>
+      <text>Khi Lý Tố Thường tròn một tuổi, nói còn chưa lưu loát, mẫu thân đã bắt đầu dạy cô võ thuật.</text>
       <text>
-        <p>母亲很疼爱她，从没让她受过半点委屈；</p>
-        <p>可一旦练起剑来，母亲又比谁都严厉。</p>
+        <p>Mẫu thân yêu thương cô hết mực, không bao giờ để cô phải chịu ấm ức;</p>
+        <p>Nhưng khi nói đến việc luyện kiếm, bà lại nghiêm khắc hơn kỳ ai.</p>
       </text>
-      <text>素裳没少吃苦头，练到腰膝肿痛，骨骼发僵是常有的事，半夜躺着都会痛醒。</text>
-      <text inline="true">她找父亲哭诉，结果只换来变本加厉的苦训——父亲刚提起女儿练得太多，秦素衣就瞧了他一眼。</text>
+      <text>Tố Thường đã phải trải qua bao phen khổ luyện. Cô thường xuyên bị sưng đau ở thắt lưng và đầu gối, bị cứng khớp. Thậm chí, có lúc còn thức giấc giữa đêm vì quá đau.</text>
+      <text inline="true">Cô đến than phiền với phụ thân, kết quả chỉ nhận lại những lời trách mắng gay gắt hơn—— Ngay khi phụ thân nhắc đến việc con gái phải luyện tập quá nhiều, Tần Tố Y liền liếc một cái.</text>
       <text>
         <p/>
-        <p>堂堂忆剑山庄庄主，『川公子』李绅被这一个眼神瞪得说不出话来，讪讪离去。</p>
+        <p>Đường đường là trang chủ của Ức Kiếm Sơn Trang, nhưng ngay cả 『Xuyên Công Tử』Lý Thân thấy ánh nhìn ấy cũng lập tức không nói nên lời và lúng túng bỏ đi.</p>
       </text>
       <text>
-        <p>从此，素裳加倍用心习剑，家传十二路『忆心剑法』练得滚瓜烂熟。</p>
-        <p>可母亲见了，仍是摇头。</p>
+        <p>Từ đó trở đi, Tố Thường càng dốc sức luyện kiếm, thuần thục mười hai chiêu thức của 『Ức Tâm Kiếm Pháp』 gia truyền.</p>
+        <p>Nhưng mẫu thân, vẫn cứ lắc đầu.</p>
       </text>
       <text>
-        <p>素裳不明白问题出在哪里，是她还不够刻苦么？</p>
-        <p>为何自己总也达不到母亲的期许？</p>
+        <p>Tố Thường không hiểu vấn đề nằm ở đâu. Phải chăng cô ấy vẫn chưa đủ nỗ lực?</p>
+        <p>Tại sao mình không bao giờ đạt được kỳ vọng của mẫu thân?</p>
       </text>
-      <text>于是某日，她偷听父母的夜谈。</text>
+      <text>Rồi một ngày, cô vô tình nghe được cuộc trò chuyện buổi khuya của song thân.</text>
       <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="忆剑山庄内"/>
-      <dialog chara="009">「依我看，问题出在你们李家的武功。」</dialog>
-      <text>母亲冷冷道。</text>
+      <dialog chara="009">「Theo ta thấy, vấn đề nằm ở võ công của gia tộc ngươi.」</dialog>
+      <text>Mẫu thân lạnh lùng nói.</text>
       <dialog chara="009">
-        <p>「飞燕功与垂燕十三式在川中许是绝技，可比之师父的『太虚剑气』又何如？</p>
-        <p>我便不该听你的胡话，改造什么忆心剑法。」</p>
+        <p>「Phi Yến Công và Thùy Yến Thập Tam Thức ở Tứ Xuyên có lẽ cũng được coi là tuyệt kỹ, nhưng so với 『Thái Hư Kiếm Khí』 của sư phụ thì đáng là gì?</p>
+        <p>Lẽ ra ta không nên nghe lời nhảm nhí của ngươi và cải biến Ức Tâm Kiếm Pháp.」</p>
       </dialog>
       <dialog chara="010">「…………」</dialog>
-      <text>父亲低声说了些什么，素裳没能听清，却听见母亲冷笑一声。</text>
-      <dialog chara="009">「好啊，你倒怨起我了。那就算我白费心思，空耗了十年岁月罢。」</dialog>
-      <dialog chara="009">「你的事我不管，你也别管素裳。她和你不同，是习剑的好苗子，资质就算比不上五师姊，总比我强得多些。」</dialog>
-      <text>在窗外的素裳听来，娘亲的话语中似有无限凄凉。</text>
+      <text>Phụ thân nói nhỏ điều gì đó, nhưng Tố Thường không nghe rõ. Thay vào đó, cô chỉ nghe thấy mẫu thân mình cười khẩy.</text>
+      <dialog chara="009">「Được thôi, vậy là giờ ngươi lại đổ lỗi cho ta. Coi như ta lãng phí mười năm thời gian và công sức rồi.」</dialog>
+      <dialog chara="009">「Ta không quản nổi ngươi, và ngươi cũng đừng quản Tố Thường. Con bé khác ngươi; nó là một tài năng kiếm thuật đầy triển vọng. Cho dù năng khiếu không bằng Ngũ sư tỷ, thì vẫn vượt xa ta.」</dialog>
+      <text>Đối với Tố Thường, người đang đứng ngoài cửa sổ, những lời mẫu thân nói tựa hồ chất chứa nỗi buồn vô tận.</text>
       <dialog chara="009">
-        <p>「我剑心已损，你的剑心又练不成，还有甚么可说的？[\s]</p>
-        <p>明儿我就去漠北求五师姊，叫她收了素裳。」</p>
+        <p>「Kiếm Tâm của ta đã vỡ, còn ngươi thì luyện mãi không thành. Còn gì để nói nữa đây?[\s]</p>
+        <p>Ngày mai ta sẽ đến sa mạc phía bắc nhờ cậy Ngũ sư tỷ đưa Tố Thường đi.」</p>
       </dialog>
       <dialog chara="009">
-        <p>「五师姊欠我个人情。我面子虽薄，</p>
-        <p>但只要开口，料来她不会拒绝。」</p>
+        <p>「Ngũ sư tỷ nợ ta một ân tình. Ta tuy chẳng có mặt mũi gì, </p>
+        <p>Nhưng chỉ cần ta mở lời, chắc nàng cũng không nỡ từ chối.」</p>
       </dialog>
       <text>
-        <p>父亲一愣，随即厉声反对。李素裳听在心里，莫名地惶恐不已。</p>
-        <p>她既想附和父亲，又对母亲所说的『漠北』、『五师姊』有些好奇。</p>
+        <p>Phụ thân ngỡ ngàng, rồi phản đối ra mặt. Lý Tố Thường vô thức cảm thấy sợ hãi khi nghe điều này.</p>
+        <p>Cô muốn đồng tình với phụ thân, nhưng cô cũng tò mò về những điều mẫu thân nói, cụ thể là 『Sa mạc phía bắc』, 『Ngũ sư tỷ』.</p>
       </text>
-      <dialog chara="009">「——太虚剑气。」</dialog>
-      <text>短短四字似有魔力，甫一出口便消去所有杂音，屋内顿时鸦雀无声。</text>
-      <dialog chara="009">「师父身故后，这世上就只得凌霜一人掌握了太虚第五蕴。」</dialog>
-      <dialog chara="009">「素裳既要学剑，何不学最好的剑法？」</dialog>
+      <dialog chara="009">「——Thái Hư Kiếm Khí.」</dialog>
+      <text>Bốn chữ ấy như có sức mạnh kỳ diệu; vừa thốt ra, là mọi âm thanh khác đều biến mất, và căn phòng trở nên im lặng.</text>
+      <dialog chara="009">「Sau khi sư phụ qua đời, trên đời này chỉ còn một mình Lăng Sương nắm rõ đệ Ngũ Uẩn Thái Hư.」</dialog>
+      <dialog chara="009">「Tố Thường muốn học kiếm thuật, hà cớ gì không học kiếm pháp đỉnh cao nhất?」</dialog>
       <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
       <bg img="氛围-1-素裳过曝-1"/>
       <text>
-        <p>母亲说到做到。</p>
-        <p>李素裳五岁生辰之日，爹娘送她一份厚礼。</p>
+        <p>Mẫu thân nói được làm được.</p>
+        <p>Vào sinh nhật thứ năm của Tố Thường, phụ mẫu đã tặng cô một món quà rất có ý nghĩa.</p>
       </text>
       <text>
-        <p>告别忆剑山庄，告别川中，告别自出生以来从未远离的『家』，</p>
-        <p>李素裳就这样来到漠北，学了整整十年『最好的剑法』。</p>
+        <p>Từ biệt Ức Kiếm Sơn Trang, từ biệt Tứ Xuyên, từ biệt 『ngôi nhà』 cô chưa từng rời khỏi, </p>
+        <p>Lý Tố Thường đến sa mạc phía bắc, tu luyện mười năm 『kiếm pháp đỉnh cao nhất』。</p>
       </text>
       <notification>传略馆解锁：「李素裳」</notification>
       <event action="achievement" aid="8300c8e546c9292b"/>
