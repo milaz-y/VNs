@@ -699,22 +699,22 @@
         <p>Từ biệt Ức Kiếm Sơn Trang, từ biệt Tứ Xuyên, từ biệt 『ngôi nhà』 cô chưa từng rời khỏi, </p>
         <p>Lý Tố Thường đến sa mạc phía bắc, tu luyện mười năm 『kiếm pháp đỉnh cao nhất』。</p>
       </text>
-      <notification>传略馆解锁：「李素裳」</notification>
+      <notification>Mở khoá tiểu sử: 「Lý Tố Thường」</notification>
       <event action="achievement" aid="8300c8e546c9292b"/>
       <event action="hide_ui" duration="2"/>
       <motion chara="002" action="show" img="素裳-标准-持剑-远景" duration="2" pos="center"/>
       <delay t="2"/>
       <event action="show_ui"/>
       <text>
-        <p>十年时光，倏忽而去。</p>
-        <p>对家的思念已淡如薄纸，只余母亲临别时的嘱咐铭刻在心。</p>
+        <p>Mười năm trôi qua, nhanh như một cái chớp mắt.</p>
+        <p>Nỗi nhớ nhà đã nhạt phai chỉ còn mỏng manh tựa tờ giấy, đọng lại là những lời dặn dò cuối cùng của mẫu thân in hằn trong tim.</p>
       </text>
       <text>
-        <p>剑法是否已有所得？</p>
-        <p>武艺是否已有所成？</p>
-        <p>如今的自己，是否应了母亲的期望？</p>
+        <p>BKiếm pháp đã tiến bộ chưa?</p>
+        <p>Võ công đạt đến đâu rồi?</p>
+        <p>Liệu mình có đáp ứng được kỳ vọng của mẫu thân?</p>
       </text>
-      <text>……素裳不知，她还需要证明。</text>
+      <text>……Tố Thường không biết, và cô cần chút minh chứng.</text>
       <motion chara="002" action="img_trans" img="素裳-专注-持剑-远景"/>
       <text>而证明的方式，就是『试剑』。</text>
       <event action="hide_ui" duration="1"/>
